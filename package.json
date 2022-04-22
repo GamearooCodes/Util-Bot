@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "discord-helper.js": "^1.1.2",
+    "discord.js": "^13.6.0",
+    "moment": "^2.29.3",
+    "ram-api.js": "^7.0.0",
+    "simply-logger": "^1.4.38"
+  },
+  "name": "util-bot",
+  "description": "",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gamearoos-development/Util-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gamearoos-development/Util-Bot/issues"
+  },
+  "homepage": "https://github.com/Gamearoos-development/Util-Bot#readme"
+}
