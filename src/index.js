@@ -62,7 +62,7 @@ client.on("interactionCreate", (int) => {
 
             const permissions = new Permissions(command.perm);
 
-            if(!int.member.permissions.has(permissions)) return int.reply(`Missing ${permissions.toArray()}`).cache(err => {});
+            if(!int.member.permissions.has(permissions)) return int.reply(`Missing ${permissions.toArray()}`).catch(err => {});
 
             let extras = {
                 ramapiversion: apiv
